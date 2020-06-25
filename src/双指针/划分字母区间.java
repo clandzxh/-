@@ -25,8 +25,6 @@ public class 划分字母区间 {
                 last=index;
             }
             cur++;
-
-
         }
         res.add(last-first+1);
         return last;
