@@ -5,6 +5,7 @@ import 动态规划.零钱兑换;
 import 动态规划.最低票价;
 import DFS.*;
 import 双指针.*;
+import 回溯算法.*;
 import 数组.大小为K且平均值大于等于阈值的子数组数目;
 
 import java.util.Arrays;
@@ -34,7 +35,8 @@ public class TestArray {
         //int threshold=sc.nextInt();
         //int result=大小为K且平均值大于等于阈值的子数组数目.numOfSubarrays(source,k,threshold);
         //int[] result=两数之和.twoSum(source,k);
-        List<List<Integer>> result=三数之和.threeSum(source);
-        System.out.println(result.toString());
+        //List<List<Integer>> result=三数之和.threeSum(source);
+        int target=sc.nextInt();
+        System.out.println(new 组合总和II().combinationSum2(source,target));
     }
 }
